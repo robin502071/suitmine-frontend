@@ -79,10 +79,6 @@ h6 {
   font-size: 1rem;
 }
 
-label {
-  @include text;
-}
-
 @mixin h1 {
   @include text;
   font-weight: 500;
@@ -168,7 +164,7 @@ label {
 }
 
 // 洧
-// ******** 覆蓋 accordian 樣式(react-bootsrap) ******** //
+// ******** 覆蓋 accordian 樣式 ******** //
 // 取消 accordian 的 arrow
 .accordion-button::after {
   display: none;
